@@ -4,72 +4,148 @@ body {
     font-size: 13px;
     line-height: 18px;
     color: #333333;
-    background-color: #ffffff;
+    background-color: #C0C0C0;
     
 }
 
 img {
-    width: 100px;
+    width: 240px;
     margin: 10px 0 0 40px;
     padding: 0 0 0 0
 }
 
 .container {
-  width: 840px;
-  margin:20px;
+  width: 810px;
+  margin:0 0 0 200px;  
   border: solid 1px;
   border-color: #E34234;
+  padding: 0 0 0 0;
+  background-color: #ffffff;
   
  
 }
 
-.top {
-    width:840px;
+.toplogo {
+    width:100px;
+    margin: 0 0 0 220px;
+    position: absolute;
+}
+.toplogo img{
+    width: 90px;
+    margin: 20px 0 0 0px;
+    padding: 0 70px 0 0;
+    height: 60px
+}
+
+.topheader  {
+    width:600px;
+    margin: 0 0 0 410px;
+    position: absolute;
+    
+}
+.topheader img {
+    width: 150px;
+    margin: 20px 0 0 -60px;
+    padding: 0 70px 0 0;
+    height: 60px
+}
+
+h1 {
+    color: #E34234;
+    font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
     
 }
 
 .topmenu {
     background-color: #E34234;
-    width: 600px;
-    margin: -40px 0 0 220px;
-    padding: 10px 10px 10px 10px;
-
+    width: 620px;
+    margin: 100px 0 0 190px;
+    padding: 10px 0 10px 0;
     
 }
 
-.topmenu a {
-    
-	font-family: 'Telex', sans-serif;
-	padding: 7px 20px 7px 20px;
-	font-size: 14px;
-	letter-spacing: 1px;
-        text-decoration: none;
-        color: #ffffff;
+
+#submenu {
+	margin: 0;
+	padding: 0;
+	height: 1em;
+        }
         
+#submenu a:hover{
+        color:#C0C0C0
+}
+#submenu ul li.selected a {
+	color: #000000
+}
+
+#submenu li {
+	list-style: none;
+	float: left; }
+#submenu li a {
+	display: block;
+	padding: 0 25px 5px 30px;
+	color: #fff;
+	text-decoration: none; }
+
+#submenu li ul {
+	display: none; 
+	width: 10em; /* Width to help Opera out */
+	background-color: #69f;
+        
+        }
+
+#submenu li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+        
+        }
+#submenu li:hover li {
+	float: none;
+        
+        }
+#submenu li:hover li a {
+	background-color: #ffffff;
+	border-bottom: 1px solid #E34234;
+	color: #000; }
+#submenu li li a:hover {
+	background-color: #C0C0C0; }
+
+.fame {
+   
+    margin: -161px 0 0 150px
+}
+.fame img {
+    width:620px;
+    height:138px
 }
 
 .sidemenu {
         width: 180px;
-        margin: 10px 20px 0 10px;
-        padding: 10px 20px 10px 10px;
+        margin: 0 20px 0 0;
+        padding: 10px 5px 10px 0;
 }
 
 .sidemenu a {
-    	font-family: 'Telex', sans-serif;
+    	
 	padding: 7px 10px 7px 10px;
-	font-size: 14px;
+        margin: 0 0 3px 0;
+        background-color: #E34234;
+	font-size: 12px;
 	letter-spacing: 1px;
         text-decoration: none;
-        color: #000000;
-        display: block; 
+        color: #ffffff;
+        display: block;
 }
 
-.fame {
-   
-    margin: -165px 0 0 180px
+.sidemenu a:hover {
+    color:#C0C0C0;
 }
-.fame img {
-    width:620px;
-    height:150px
+
+.footer {
+    text-align: center
 }
+
+
 
