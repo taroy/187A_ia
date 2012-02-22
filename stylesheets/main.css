@@ -15,55 +15,68 @@ img {
 }
 
 .container {
-  width: 810px;
+  width: 790px;
   margin:0 0 0 200px;  
   border: solid 1px;
   border-color: #E34234;
   padding: 0 0 0 0;
   background-color: #ffffff;
-  
- 
 }
 
 .toplogo {
     width:100px;
-    margin: 0 0 0 220px;
-    position: absolute;
+    margin: 0 0 0 0;
 }
 .toplogo img{
-    width: 90px;
-    margin: 20px 0 0 0px;
-    padding: 0 70px 0 0;
-    height: 60px
+    width: 110px;
+    margin: 30px 0 0 30px;
+    padding: 0 0 0 0;
+    height: 90px
 }
 
 .topheader  {
     width:600px;
-    margin: 0 0 0 410px;
-    position: absolute;
-    
+    margin: -100px 0 0 190px;
+    position: absolute;  
 }
+
 .topheader img {
-    width: 150px;
-    margin: 20px 0 0 -60px;
+    width: 170px;
+    margin: 0 0 0 0;
     padding: 0 70px 0 0;
     height: 60px
+}
+
+.topheader a {
+     padding: 7px 10px 7px 10px;
+        margin: 0 0 3px 0;
+	font-size: 12px;
+	letter-spacing: 1px;
+        text-decoration: none;
+        color: #000000;  
 }
 
 h1 {
     color: #E34234;
     font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;
-    
+   margin-left: 310px 
+}
+h2 {
+     color:#000000;
+     font-size: 14px
 }
 
 .topmenu {
     background-color: #E34234;
     width: 620px;
-    margin: 100px 0 0 190px;
+    margin: -30px 0 0 170px;
     padding: 10px 0 10px 0;
-    
 }
-
+ 
+.topmenu a:link , .topmenu a:visited{
+	text-decoration: none;
+	color: #000000;
+}
 
 #submenu {
 	margin: 0;
@@ -72,25 +85,29 @@ h1 {
         }
         
 #submenu a:hover{
-        color:#C0C0C0
-}
-#submenu ul li.selected a {
-	color: #000000
+        color:#000000
 }
 
 #submenu li {
 	list-style: none;
-	float: left; }
+	float: left;
+        }
+        
 #submenu li a {
 	display: block;
 	padding: 0 25px 5px 30px;
-	color: #fff;
-	text-decoration: none; }
+	color: #ffffff;
+	text-decoration: none;
+        }
+#submenu li a.selected{
+       color: black; 
+} 
+
 
 #submenu li ul {
 	display: none; 
 	width: 10em; /* Width to help Opera out */
-	background-color: #69f;
+	background-color: #c0c0c0;
         
         }
 
@@ -100,36 +117,100 @@ h1 {
 	margin: 0;
 	padding: 0;
         
+        
         }
 #submenu li:hover li {
 	float: none;
         
         }
 #submenu li:hover li a {
-	background-color: #ffffff;
-	border-bottom: 1px solid #E34234;
-	color: #000; }
+	background-color: #c0c0c0;
+	border-bottom: 1px dotted  #E34234;
+	color: #000000
+        }
+#submenu li li a.selected{
+       background-color: #ffffff; 
+} 
 #submenu li li a:hover {
-	background-color: #C0C0C0; }
+	background-color: #ffffff;
+        }
+        
+#subsidemenu {
+	top: 0;
+	right: 0;
+	margin: 0;
+        padding: 0 0 10px 0;
+
+       
+     }
+#subsidemenu li {
+	list-style: none;
+        
+        }
+        
+#subsidemenu li a {
+	display: block;
+	padding: 5px 0 5px 8px;
+	text-decoration: none; 
+	color: #ffffff;
+        padding: 10px 0 5px 10px;
+
+	}
+#subsidemenu li a:hover {
+	color: #000;
+        }
+        
+#subsidemenu li ul {
+	display: none;
+
+        }
+#subsidemenu li:hover ul, #subsidemenu li.hover ul {
+	width: 10%;
+        display: block;
+	position: absolute;
+	margin: -36px 0 0 160px;
+	padding: 0 0 0 0;
+
+        }
+        
+#subsidemenu li:hover li, #subsidemenu li.hover li {
+
+        }
+#subsidemenu li:hover li a, #subsidemenu li.hover li a {
+             background-color:#c0c0c0;
+          border-bottom: 1px dotted  #E34234;
+                color:#000000
+                }
+
+
+        
+#subsidemenu li li a:hover {
+	color: #000000;
+        background-color:#ffffff;
+
+        }
 
 .fame {
-   
-    margin: -161px 0 0 150px
+   width:620px;
+    margin: -150px 0 0 180px;
+    padding: 0 0 0 0;
 }
 .fame img {
     width:620px;
-    height:138px
+    height:142px;
+    margin: -14px 0 0 -10px;
+
 }
 
 .sidemenu {
-        width: 180px;
-        margin: 0 20px 0 0;
-        padding: 10px 5px 10px 0;
+        width: 160px;
+        padding: 0 0 10px 0;
+        margin:10px 0 0 0 
+
 }
 
 .sidemenu a {
-    	
-	padding: 7px 10px 7px 10px;
+     
         margin: 0 0 3px 0;
         background-color: #E34234;
 	font-size: 12px;
@@ -145,6 +226,45 @@ h1 {
 
 .footer {
     text-align: center
+}
+
+.search {
+     margin: -30px 0 0 380px;
+}
+.radiobutton{
+     margin: -40px 0 0 0px;
+
+}
+
+.wire {
+     
+}
+.wire img {
+     width: auto;
+     margin: 0 0 0 -3px;
+}
+
+.abouttext {
+     width: 520px;
+     text-align: left;
+     margin:-343px 0 0 20px
+}
+.aboutimg {
+     margin: 90px 0 0 540px;
+}
+.aboutimg img {
+     width: 200px     
+
+}
+.aboutimg span {
+     font-size: 80%;
+     margin: 0 0 0 60px
+}
+
+.historytext {
+     width: 600px;
+     text-align: left;
+     margin:70px 0 0 20px
 }
 
 
