@@ -1,4 +1,6 @@
-
+html {
+	width: 1200px;
+}
 
 body {
         background-color: whitesmoke;
@@ -9,7 +11,7 @@ div {
 }
 
 .container {
-        width: 1400px;
+        width: 900px;
         margin-left: auto;
         margin-right: auto;
         background-color: white;
@@ -19,9 +21,9 @@ div {
 
 .header {
         background: url("wof2.jpg") no-repeat;
-        background-size: 451px;
+        background-size: 219px;
         background-position: right;
-        height: 200px;
+        height: 120px;
         margin: 20px 20px 20px 20px;
         border: solid 1px #E34234;
         border-radius: 5px;
@@ -31,51 +33,64 @@ div {
 
 .container_unit {
         background-color: whitesmoke;
-        width: 1360px;
+        width: 860px;
         margin: 20px 20px 20px 20px;
 }
 
+
 .footer {
-        padding: 10px;
+        padding: 3px;
+	width: 860px;
         background-color: #E34234;
         margin-left: 20px;
-        margin-right: 20px;
         border-radius: 5px;
 }
 
 .footertext {
         text-align: center;
-        font-size: 18px;
+        font-size: 14px;
         color: white;
 }
 
 h1 {
         font-family: Georgia, serif;
         text-align: left;
-        font-size: 45px;
-        padding: 65px 20px 72px 225px;
+        font-size: 25px;
+        padding: 25px 20px 23px 155px;
         letter-spacing: 1px;
         color: #E34234;
+}
+
+.header {
+        background: url("wof2.jpg") no-repeat;
+        background-size: 226px;
+        background-position: right;
+        height: 110px;
+        margin: 20px 20px 20px 20px;
+        border: solid 1px #E34234;
+        border-radius: 5px;
+        padding-bottom: 10px;
+        background-color: whitesmoke;
 }
 
 h2 {
         font-family: Georgia, serif;
         text-align: left;
-	font-size: 30px;
+	font-size: 16px;
 	color: #E34234;
 	letter-spacing: 1px;
-	padding: 20px 0 20px 225px;
+	padding: 10px 0 10px 156px;
+	border-radius: 5px;
 }
 
 .nav {
-	width: 908px;
+	width: 632px;
 	float: left;
 	margin: 0 0 0 0;
 	padding: 0;
 	list-style: none;
 	background-color: #E34234;
-        height: 40px;
-        box-shadow: 0 0 8px -2px #E34234;
+        height: 36px;
 }
 
 .nav li {
@@ -85,27 +100,46 @@ h2 {
 .nav li a {
         display: block;
 	padding: 8px 8px;
-	font-size: 18px;
-        width: 211px;
+	font-size: 14px;
+        width: 141px;
         text-align: center;
         color: white;
-        border-right: solid 1px white;
+}
+
+.nav li a:hover {
+        color: white;
+	background-color: #E34234;
+	font-weight: bold;
+	letter-spacing: 1px;
+	min-height: 36px;
+	max-width: 140px;
+	border: solid 1px #E34234;
+	border-radius: 10px;
 }
 
 .nav li a.selected{
-        color: black; 
+        color: white;
+	background-color: #E34234;
+	font-weight: bold;
+	letter-spacing: 1px;
+	min-height: 36px;
+	max-width: 140px;
+	border: solid 1px #E34234;
+	border-radius: 10px;
 }
 
 .personas {
 	width: 100%;
-	height: 7000px;
+	height: 5800px;
 }
 
 .analysis {
 	width: 100%;
-	height: 10500px;
+	height: 9000px;
 }
-embed {
-	
-    
-}
+
+
+
+
+
+
