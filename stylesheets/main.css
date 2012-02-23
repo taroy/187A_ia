@@ -131,15 +131,15 @@ h2 {
         
         }
 #submenu li:hover li a {
-	background-color: #E6E6E6;
+	background-color: #F2F2F2;
 	border-bottom: 1px dotted  #E34234;
 	color: #000000
         }
 #submenu li li a.selected{
-       background-color: #ffffff; 
+       background-color: #D8D8D8; 
 } 
 #submenu li li a:hover {
-	background-color: #ffffff;
+	background-color: #D8D8D8;
         }
         
 #subsidemenu {
@@ -169,7 +169,7 @@ h2 {
 #subsidemenu li ul {
 	display: none;
         padding: 10px 0 5px 20px;
-        background-color: #E6E6E6;
+        background-color: #F2F2F2;
 
 
         }
@@ -186,7 +186,7 @@ h2 {
 
         }
 #subsidemenu li:hover li a, #subsidemenu li.hover li a {
-          background-color:#E6E6E6;
+          background-color:#F2F2F2;
           border-bottom: 1px dotted  #E34234;
           color:#000000;
 }
@@ -195,7 +195,7 @@ h2 {
         
 #subsidemenu li li a:hover {
 	color: #000000;
-        background-color:#ffffff;
+        background-color:#D8D8D8;
 
         }
 
@@ -250,7 +250,7 @@ h2 {
 }
 .wire img {
      width: auto;
-     margin: 1px 0 0 -3px;
+     margin: 1px 0 0 -1px;
 }
 
 .abouttext {
@@ -339,7 +339,46 @@ h2 {
 .alumniimg img {
      width: 350px;
      padding: 0 0 5px 0
-
 }
 
+.edutext {
+     width: 470px;
+     text-align: left;
+     margin: -412px 0 0 20px
+}
+
+.eduimg {
+      margin: 90px 0 0 510px;
+}
+.eduimg img {
+  width: 230px;
+  padding: 0 0 15px 0;
+}
+
+.studenttext {
+     width: 470px;
+     text-align: left;
+     margin: -222px 0 0 20px
+}
+.studentimg {
+     margin: 90px 0 0 480px;
+}
+.studentimg img {
+       width: 260px;
+}
+
+.protext {
+     width: 470px;
+     text-align: left;
+     margin: -212px 0 0 20px
+}
+.stafftext {
+     width: 470px;
+     text-align: left;
+     margin: -212px 0 0 20px
+}
+.staffimg {
+     margin: 90px 0 0 500px;
+
+}
 
