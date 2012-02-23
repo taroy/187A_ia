@@ -60,11 +60,14 @@ img {
 h1 {
     color: #000000;
     font-family: Stint Ultra Expanded;
-    text-align: center
+    text-align: center;
+    margin: 30px 0 0 0;
+    padding: 0 0 5px 0
 }
 h2 {
      color:#E34234;
-     font-size: 14px
+     font-size: 14px;
+     font-family: Stint Ultra Expanded;
 }
 
 .topmenu {
@@ -271,9 +274,20 @@ h2 {
 }
 
 .historytext {
-     width: 600px;
+     width: 520px;
      text-align: left;
-     margin:70px 0 0 20px
+     margin:-370px 0 0 20px
+}
+.historyimg {
+      margin: 100px 0 0 540px;
+}
+.historyimg img {
+     width: 200px;  
+
+}
+.historyimg span {
+     font-size: 80%;
+     margin: 0 0 0 98px
 }
 
 .researchtext {
@@ -379,6 +393,16 @@ h2 {
 }
 .staffimg {
      margin: 90px 0 0 500px;
+
+}
+
+#breadcrumbs li {
+display: block;
+float: left;
+margin: 0 0 0 -20px;
+padding: 0;
+font-size: 12px;
+line-height: 12px;
 
 }
 
