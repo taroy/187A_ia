@@ -12,8 +12,8 @@ div {
 
 .container {
         width: 900px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 185px;
+        margin-right: 185px;
         background-color: white;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -35,6 +35,7 @@ div {
         background-color: whitesmoke;
         width: 860px;
         margin: 20px 20px 20px 20px;
+	margin-top: 40px;
 }
 
 
@@ -136,6 +137,39 @@ h2 {
 .analysis {
 	width: 100%;
 	height: 9000px;
+}
+
+h3 {
+        font-family: Georgia, serif;
+	font-size: 14px;
+	color: #E34234;
+	letter-spacing: 1px;
+}
+
+
+.sitemap a {
+	color: #E34234;
+	text-decoration: underline;
+	text-align: left;
+}
+
+.sitemap h2 {
+	margin-left: 240px;
+	text-decoration: underline;
+}
+
+table {
+	
+}
+
+table td {
+	width: 95.5px;
+	vertical-align: top;
+	border: solid 1px;
+}
+
+table p {
+	vertical-align: bottom;
 }
 
 
